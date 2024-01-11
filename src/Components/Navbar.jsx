@@ -20,7 +20,7 @@ const Navbar = () => {
         <nav className="navbar bg-black shadow-xl z-50 fixed top-0 w-screen">
             <div>
                 {/* img source=https://imgur.com/BrFcmOh.png */}
-                <Link to='/' className="rounded-md"><img src={'https://imgur.com/c2b6qvA.png'} className="min-w-[200px]" alt="Company" /></Link>
+                <Link to='/' className="rounded-md"><img src={'https://imgur.com/9lGWnlu.png'} className="min-w-[200px]" alt="Company" /></Link>
             </div>
             <div className="navbar-center md:navbar-center hidden lg:flex w-[150vh]">
                 <ul className="menu menu-horizontal ml-auto">

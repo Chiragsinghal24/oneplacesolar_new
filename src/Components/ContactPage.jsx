@@ -17,7 +17,7 @@ const ContactPage = () => {
                         <button className="btn btn-warning" onClick={handleClick}><FaWhatsapp size={25} />Add</button>
                         <p className="py-3 text-2xl font-bold"> ONE PLACE SOLAR PVT. LTD.</p>
                         <p className="text-xl py-3"> 2-A/3, Kundan Mansion, Asaf Ali Rd, Delhi 110002</p>
-                        <p className="text-xl py-3"> +1 209 682 5630</p>
+                        <a href='tel:209 682 5630'><p className="text-xl py-3"> +1 209 682 5630</p></a>
                         <a href={`mailto:info@oneplacesolar.com/`} target="_blank"><p className="text-xl py-3 cursor-pointer">info@oneplacesolar.com</p></a>
                     </div>
                 </div>

@@ -25,8 +25,8 @@ const Footer = () => {
                 </img>
                 </Link>
                 <p>All your solar services at one place</p>
-                <a href="" className="footer-title">info@oneplacesolar.com</a>
-                <p className="footer-title">+1 209 682 5630</p>
+                <a href={`mailto:info@oneplacesolar.com/`} target="_blank" className="footer-title">info@oneplacesolar.com</a>
+                <a href='tel:209 682 5630'><p className="footer-title">+1 209 682 5630</p></a>
                 <div className="flex flex-row md:mx-0 gap-2 md:place-self-center md:justify-self-start">
                     <a href="https://www.instagram.com/oneplacesolar/" target="_blank"><BsInstagram size={30} /></a>
                     <a href="https://www.linkedin.com/company/one-place-solar/" target="_blank"><AiOutlineLinkedin size={30} /></a>

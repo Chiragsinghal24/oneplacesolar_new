@@ -63,7 +63,7 @@ const Hero = () => {
 
                     <div className='flex mt-10 w-full justify-center'>
                         <button className="btn btn-primary rounded-3xl text-white">
-                            <a href="https://docs.google.com/forms/d/1tms2OKyRGsV6bF8tFYqOkw0aGWsMjqF-3zCjJnloAOs/viewform?edit_requested=true">Submit Design Request Here!</a></button>
+                            <a href="https://docs.google.com/forms/d/1tms2OKyRGsV6bF8tFYqOkw0aGWsMjqF-3zCjJnloAOs/viewform?edit_requested=true" target="_blank">Submit Design Request Here!</a></button>
                     </div>
                 </div>
             </div>
